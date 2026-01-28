@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vardhaman Readymade – Deoli, Rajasthan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+    }
+    header {
+      background: #000;
+      color: #d4af37;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav a {
+      color: #d4af37;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 40px;
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 50px 30px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vardhaman Readymade</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Premium Men & Kids Wear – Order Online</h2>
+</div>
+
+<section id="products">
+  <h2 style="text-align:center">Our Collection</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520974735194-6c1f64f3a6c6" alt="Men Shirt">
+      <h3>Men's Shirt</h3>
+      <p>Price: ₹899</p>
+      <p>Sizes: M, L, XL, XXL</p>
+      <a href="https://wa.me/919461371674?text=Hello%20Vardhaman%20Readymade,%20I%20want%20to%20order%20Men's%20Shirt%20(₹899).%20Size:%20___" target="_blank"><button>Order Now</button></a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf" alt="Men Jeans">
+      <h3>Men's Jeans</h3>
+      <p>Price: ₹1,299</p>
+      <p>Sizes: 30, 32, 34, 36</p>
+      <a href="https://wa.me/919461371674?text=Hello%20Vardhaman%20Readymade,%20I%20want%20to%20order%20Men's%20Jeans%20(₹1299).%20Size:%20___" target="_blank"><button>Order Now</button></a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea" alt="Kids Wear">
+      <h3>Kids Wear Set</h3>
+      <p>Price: ₹699</p>
+      <p>Sizes: 1–2Y, 3–4Y, 5–6Y</p>
+      <a href="https://wa.me/919461371674?text=Hello%20Vardhaman%20Readymade,%20I%20want%20to%20order%20Kids%20Wear%20Set%20(₹699).%20Size:%20___" target="_blank"><button>Order Now</button></a>
+    </div>
+  </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="Women Wear">
+      <h3><div class="card">
+      <img src="https://images.unsplash.com/photo-1520974735194-6c1f64f3a6c6" alt="Men Wear">
+      <h3>Men's Wear</h3>
+      <p>Shirts, Jeans, Ethnic Wear</p>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea" alt="Kids Wear">
+      <h3>Kids Wear</h3>
+      <p>Festive & Daily Wear</p>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea" alt="Kids Wear">
+      <h3>Kids Wear</h3>
+      <p>Comfort & Style</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 style="text-align:center">Contact Us</h2>
+  <div class="contact">
+    <p><strong>Shop Name:</strong> Vardhaman Readymade</p>
+    <p><strong>Address:</strong> Deoli, Rajasthan</p>
+    <p><strong>Order on WhatsApp:</strong> <a style="color:#d4af37;text-decoration:none" href="https://wa.me/919461371674?text=Hello%20Vardhaman%20Readymade,%20I%20want%20to%20place%20an%20order.%20Please%20share%20details." target="_blank">+91 9461371674</a></p>
+    <p><strong>Opening Hours:</strong> 10 AM – 9 PM</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 StyleHub Readymade Shop. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
